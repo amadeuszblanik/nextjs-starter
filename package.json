@@ -1,13 +1,14 @@
 {
   "name": "next-ts-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Amadeusz Blanik <amadeusz@blanik.me>",
   "license": "ISC",
   "scripts": {
     "dev": "next",
     "dev-server": "node server.js",
     "build": "next build",
-    "start": "next build; NODE_ENV=production node server.js"
+    "start": "next build; NODE_ENV=production node server.js",
+    "static": "next build; next export"
   },
   "dependencies": {
     "cacheable-response": "^1.1.0",
