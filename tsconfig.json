@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es2015",
     "module": "esnext",
     "jsx": "preserve",
     "lib": [
@@ -21,7 +21,17 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./@types"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "*"
+      ]
+    }
   },
   "exclude": [
     "node_modules",
@@ -30,6 +40,8 @@
   "include": [
     "next-env.d.ts",
     "src/**/*.ts",
-    "src/**/*.tsx"
-  ],
+    "src/**/*.tsx",
+    "pages/index.tsx",
+    "@types/value.d.ts"
+  ]
 }
