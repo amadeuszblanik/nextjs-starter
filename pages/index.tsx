@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {Main} from "../layout";
+import {Main} from "../src/app/layout";
 
 const Title = styled.h1`
   color: ${({theme}) => theme.colors.primary};

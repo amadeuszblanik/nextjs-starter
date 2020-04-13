@@ -26,22 +26,23 @@
       "./node_modules/@types",
       "./@types"
     ],
-    "baseUrl": ".",
-    "paths": {
-      "*": [
-        "*"
-      ]
-    }
+    "types": [
+      "node"
+    ],
+    "baseUrl": "."
   },
   "exclude": [
     "node_modules",
-    "__test__"
+    "__test__",
+    "dist",
+    "src/server/**/*.ts"
   ],
   "include": [
     "next-env.d.ts",
     "src/**/*.ts",
     "src/**/*.tsx",
     "pages/index.tsx",
-    "@types/value.d.ts"
+    "@types/*",
+    "node_modules/@types/*"
   ]
 }

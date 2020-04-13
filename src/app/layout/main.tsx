@@ -1,6 +1,6 @@
 import React from "react";
 import {ThemeProvider} from "styled-components";
-import {Theme} from "./../../src/settings/";
+import {Theme} from "../settings";
 
 interface LayoutProps {
     children: JSX.Element | JSX.Element[];

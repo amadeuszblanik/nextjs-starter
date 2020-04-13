@@ -1,0 +1,14 @@
+{
+  "extends": "./../../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "module": "commonjs",
+    "strict": false,
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "../../dist/"
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["test/**/*.ts"]
+}
