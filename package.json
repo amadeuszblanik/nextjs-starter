@@ -9,7 +9,7 @@
     "build": "yarn build:app; yarn build:server",
     "build:app": "next build",
     "build:server": "tsc --project src/server/tsconfig.json",
-    "start": "node dist/src/server/index.js",
+    "start": "node dist/index.js",
     "lint:js": "eslint src/**/*.ts src/**/*.tsx --fix",
     "test": "jest",
     "test:watch": "jest — watch",
