@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import {Main} from "../src/app/layout";
+import {HelloWorld} from "../src/app/components";
 
 const Title = styled.h1`
   color: ${({theme}) => theme.colors.primary};
@@ -13,9 +14,11 @@ Title.displayName = "Title";
 const Index: React.FunctionComponent = () => {
     return (
         <Main>
-            <Title>
+            <HelloWorld>
+                <Title>
                 Hello World!
-            </Title>
+                </Title>
+            </HelloWorld>
         </Main>
     );
 };

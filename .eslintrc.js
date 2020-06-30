@@ -26,6 +26,11 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
+        "react/prop-types": [
+            2, {
+                ignore: ["children"]
+            }
+        ],
         "indent": [
             "error",
             4
