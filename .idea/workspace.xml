@@ -11,7 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6bc51a1-df21-451c-ad29-46aef098b24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -34,12 +44,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1607286767" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1607286986" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1607286766" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1607286767" />
                   </RecentBranch>
                 </list>
               </option>
@@ -117,8 +127,16 @@
       <updated>1607286410944</updated>
       <workItem from="1607286412980" duration="79000" />
       <workItem from="1607286511885" duration="38000" />
-      <workItem from="1607286590055" duration="369000" />
+      <workItem from="1607286590055" duration="761000" />
     </task>
+    <task id="LOCAL-00001" summary="Innitial commit">
+      <created>1607286977991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607286977991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,26 +154,38 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Innitial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Innitial commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1876" height="344" key="GridCell.Tab.0.bottom" timestamp="1607286786201">
+    <state width="1876" height="352" key="GridCell.Tab.0.bottom" timestamp="1607287348939">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1876" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1607286786201" />
-    <state width="1876" height="344" key="GridCell.Tab.0.center" timestamp="1607286786199">
+    <state width="1876" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1607287348939" />
+    <state width="1876" height="352" key="GridCell.Tab.0.center" timestamp="1607287348938">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1876" height="344" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1607286786199" />
-    <state width="1876" height="344" key="GridCell.Tab.0.left" timestamp="1607286786199">
+    <state width="1876" height="352" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1607287348938" />
+    <state width="1876" height="352" key="GridCell.Tab.0.left" timestamp="1607287348937">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1876" height="344" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1607286786199" />
-    <state width="1876" height="344" key="GridCell.Tab.0.right" timestamp="1607286786200">
+    <state width="1876" height="352" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1607287348937" />
+    <state width="1876" height="352" key="GridCell.Tab.0.right" timestamp="1607287348938">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1876" height="344" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1607286786200" />
+    <state width="1876" height="352" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1607287348938" />
     <state x="469" y="236" key="SettingsEditor" timestamp="1607286949522">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="469" y="236" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1607286949522" />
+    <state x="560" y="337" key="Vcs.Push.Dialog.v2" timestamp="1607287003964">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="560" y="337" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1607287003964" />
+    <state x="623" y="269" width="672" height="678" key="search.everywhere.popup" timestamp="1607287128086">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="623" y="269" width="672" height="678" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1607287128086" />
   </component>
 </project>
