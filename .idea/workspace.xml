@@ -11,13 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6bc51a1-df21-451c-ad29-46aef098b24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/settings/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/settings/theme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +123,7 @@
       <updated>1607286410944</updated>
       <workItem from="1607286412980" duration="79000" />
       <workItem from="1607286511885" duration="38000" />
-      <workItem from="1607286590055" duration="1507000" />
+      <workItem from="1607286590055" duration="1872000" />
     </task>
     <task id="LOCAL-00001" summary="Innitial commit">
       <created>1607286977991</created>
@@ -151,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607287434944</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added theming to styled components">
+      <created>1607288136421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607288136421</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +175,8 @@
     <MESSAGE value="Innitial commit" />
     <MESSAGE value="Added server side styled components" />
     <MESSAGE value="Updated license" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated license" />
+    <MESSAGE value="Added theming to styled components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added theming to styled components" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1876" height="352" key="GridCell.Tab.0.bottom" timestamp="1607287831749">
@@ -196,10 +199,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="469" y="236" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1607286949522" />
-    <state x="560" y="337" key="Vcs.Push.Dialog.v2" timestamp="1607287437144">
+    <state x="560" y="337" key="Vcs.Push.Dialog.v2" timestamp="1607288138541">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="560" y="337" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1607287437144" />
+    <state x="560" y="337" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1607288138541" />
     <state x="623" y="269" width="672" height="678" key="search.everywhere.popup" timestamp="1607287962291">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

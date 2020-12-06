@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import styled from 'styled-components';
 import Title from '@/components/Title';
+import { NextPage } from 'next';
 
 const StyledMain = styled.main`
   padding: 18px 24px;
@@ -31,7 +32,12 @@ const StyledFooter = styled.footer`
   }
 `;
 
-const Home: React.FC = () => (
+const SortingHat = styled.div`
+  padding: 24px 0;
+  text-align: center;
+`;
+
+const Home: NextPage<{ sortingHat: string }> = ({ sortingHat }) => (
   <div className="container">
     <Head>
       <title>Create Next App</title>
@@ -40,6 +46,7 @@ const Home: React.FC = () => (
 
     <StyledMain>
       <Title />
+      <SortingHat>Sorting hat says: {sortingHat}</SortingHat>
     </StyledMain>
 
     <StyledFooter>
@@ -49,5 +56,11 @@ const Home: React.FC = () => (
     </StyledFooter>
   </div>
 );
+
+Home.getInitialProps = async (ctx) => {
+  const res = await fetch(`https://bme-potter-api.herokuapp.com/sorting-hat/`);
+  const json = await res.json();
+  return { sortingHat: json.data };
+};
 
 export default Home;
