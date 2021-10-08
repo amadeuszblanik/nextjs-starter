@@ -1,6 +1,8 @@
 {
-  "name": "blanik.me-new",
-  "version": "0.1.0",
+  "name": "blanik.me",
+  "version": "7.0.0-alpha",
+  "author": "Amadeusz Blanik <amadeusz@blanik.me>",
+  "license": "ISC",
   "private": true,
   "scripts": {
     "dev": "next dev",
