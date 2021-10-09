@@ -1,9 +1,12 @@
 import React from "react";
-import {HelloStyled} from "./styled";
+import { HelloStyled } from "./styled";
 
-const Hello: React.FC = () => <HelloStyled>
-    Hello there,<br/>
+const Hello: React.FC = () => (
+  <HelloStyled>
+    Hello there,
+    <br />
     Lorem ipsum dolor sit amet.
-</HelloStyled>
+  </HelloStyled>
+);
 
 export default Hello;
